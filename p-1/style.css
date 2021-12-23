@@ -22,11 +22,11 @@ nav {
   width: 100%;
   text-align: left;
 }
-ul {
+.navbar-nav {
   list-style: none;
 }
 
-li {
+.nav-item {
   display: inline;
   margin: 0 1rem;
 }
