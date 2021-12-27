@@ -139,3 +139,20 @@ a {
 .works {
   margin-top: 4rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .hero {
+    height: max-content;
+  }
+  .hero-content {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .left-content {
+    text-align: center;
+  }
+  .left-content p {
+    width: 80%;
+    margin: auto;
+  }
+}
