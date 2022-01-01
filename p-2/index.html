@@ -11,6 +11,7 @@
     <main>
       <div class="form-container">
         <div class="form-wrapper">
+          <h2>Sample Form</h2>
           <form action="" method="get">
             <label class="main-label" for="name"
               >Name <span class="astr">*</span>
@@ -19,10 +20,14 @@
               <input type="text" name="first" id="" placeholder="first name" />
               <input type="text" name="last" id="" placeholder="last name" />
             </div>
-            <label class="main-label" for="birth">Date of Birth</label>
+            <label class="main-label" for="birth"
+              >Date of Birth <span class="astr">*</span></label
+            >
             <input type="date" name="" id="birth" />
 
-            <label class="main-label" for="gender">Gender</label>
+            <label class="main-label" for="gender"
+              >Gender <span class="astr">*</span></label
+            >
             <div class="radio" id="gender">
               <label for="male">
                 <input type="radio" name="gender" id="male" value="male" />
@@ -50,11 +55,18 @@
               >
             </div>
             <label class="main-label" for="upload"
-              >Kindly upload a recent picture of yourself</label
+              >Kindly upload a recent picture of yourself
+              <span class="astr">*</span></label
             >
             <input type="file" name="" id="" />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="button" value="Submit" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="write something about yourself..."
+            ></textarea>
+            <input type="button" value="Submit" id="submit-btn" />
           </form>
         </div>
       </div>
