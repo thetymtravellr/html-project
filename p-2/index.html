@@ -12,29 +12,44 @@
       <div class="form-container">
         <div class="form-wrapper">
           <form action="" method="get">
-            <label for="name">Name <span class="astr">*</span> </label>
+            <label class="main-label" for="name"
+              >Name <span class="astr">*</span>
+            </label>
             <div id="name">
               <input type="text" name="first" id="" placeholder="first name" />
               <input type="text" name="last" id="" placeholder="last name" />
             </div>
-            <label for="birth">Date of Birth</label>
+            <label class="main-label" for="birth">Date of Birth</label>
             <input type="date" name="" id="birth" />
 
-            <label for="gender">Gender</label>
+            <label class="main-label" for="gender">Gender</label>
             <div class="radio" id="gender">
-              <input type="radio" name="gender" id="male" value="male" />
-              <label for="male">Male</label>
+              <label for="male">
+                <input type="radio" name="gender" id="male" value="male" />
+                Male</label
+              >
 
-              <input type="radio" name="gender" id="female" value="female" />
-              <label for="female">Female</label>
+              <label for="female">
+                <input type="radio" name="gender" id="female" value="female" />
+                Female</label
+              >
             </div>
 
-            <label for="profession">What do you do?</label>
+            <label class="main-label" for="profession">What do you do?</label>
             <input type="text" />
-            <label for="contact">How would you prefer to be contacted</label>
-            <input type="checkbox" name="" id="" />
-            <input type="checkbox" name="" id="" />
-            <label for="upload"
+            <label class="main-label" for="contact"
+              >How would you prefer to be contacted</label
+            >
+            <div class="checkbox" id="contact">
+              <label for="c-email">
+                <input type="checkbox" name="" id="c-email" /> Email</label
+              >
+
+              <label for="c-phone">
+                <input type="checkbox" name="" id="c-phone" /> Phone</label
+              >
+            </div>
+            <label class="main-label" for="upload"
               >Kindly upload a recent picture of yourself</label
             >
             <input type="file" name="" id="" />
