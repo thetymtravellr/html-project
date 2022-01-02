@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  height: 4rem;
+  padding: 0 2rem;
+  background: rgb(24, 78, 139);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.nav-link {
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: rgb(238, 235, 235);
+}
+
+#search-box {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.login-btn {
+  padding: 8px;
+  margin-left: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(105, 162, 228);
+}
+aside {
+  width: 10rem;
+  height: 100vh;
+  overflow-y: scroll;
+}
+main {
+  width: 100%;
+  margin-left: 10rem;
+  background-color: red;
+  height: fit-content;
+}
